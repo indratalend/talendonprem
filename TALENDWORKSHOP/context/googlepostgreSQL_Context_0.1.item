@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="__QRl8LYNEfG5y45_Ve_DHg" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="__QRl8bYNEfG5y45_Ve_DHg" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV-srv"/>
+    <contextParameter xmi:id="__QRl8rYNEfG5y45_Ve_DHg" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="__QRl87YNEfG5y45_Ve_DHg" comment="" name="dbname" prompt="dbname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ACCDEV"/>
+    <contextParameter xmi:id="__QRl9LYNEfG5y45_Ve_DHg" comment="" name="schemaname" prompt="schemaname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+    <contextParameter xmi:id="__QRl9bYNEfG5y45_Ve_DHg" comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="devuser"/>
+    <contextParameter xmi:id="__QRl9rYNEfG5y45_Ve_DHg" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__QRl97YNEfG5y45_Ve_DHg" confirmationNeeded="false" hide="false" name="PRD">
+    <contextParameter xmi:id="__QRl-LYNEfG5y45_Ve_DHg" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PRD-srv"/>
+    <contextParameter xmi:id="__QRl-bYNEfG5y45_Ve_DHg" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5434"/>
+    <contextParameter xmi:id="__QRl-rYNEfG5y45_Ve_DHg" comment="" name="dbname" prompt="dbname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ACCPRD"/>
+    <contextParameter xmi:id="__QRl-7YNEfG5y45_Ve_DHg" comment="" name="schemaname" prompt="schemaname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+    <contextParameter xmi:id="__QRl_LYNEfG5y45_Ve_DHg" comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prduser"/>
+    <contextParameter xmi:id="__QRl_bYNEfG5y45_Ve_DHg" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="__QRl_rYNEfG5y45_Ve_DHg" confirmationNeeded="false" hide="false" name="UAT">
+    <contextParameter xmi:id="__QRl_7YNEfG5y45_Ve_DHg" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UAT-srv"/>
+    <contextParameter xmi:id="__QRmALYNEfG5y45_Ve_DHg" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5433"/>
+    <contextParameter xmi:id="__QRmAbYNEfG5y45_Ve_DHg" comment="" name="dbname" prompt="dbname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ACCUAT"/>
+    <contextParameter xmi:id="__QRmArYNEfG5y45_Ve_DHg" comment="" name="schemaname" prompt="schemaname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+    <contextParameter xmi:id="__QRmA7YNEfG5y45_Ve_DHg" comment="" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uatuser"/>
+    <contextParameter xmi:id="__QRmBLYNEfG5y45_Ve_DHg" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
