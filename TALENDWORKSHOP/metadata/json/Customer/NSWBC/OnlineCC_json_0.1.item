@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_x6vQsLboEfGXtaFNMPu7ow" name="OnlineCC_json" dataPackage="_x6vQwrboEfGXtaFNMPu7ow" JSONFilePath="C:/Working/Customer Engagements/ANZ Opportunity/2026/NSW BC/DA Data API/OnlineCC.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_x6vQsbboEfGXtaFNMPu7ow" LimitBoucle="50" AbsoluteXPathQuery="$.Application[*]">
+      <schemaTargets xmi:id="_x6vQsrboEfGXtaFNMPu7ow" RelativeXPathQuery="PlanningPortalApplicationNumber" TagName="PlanningPortalApplicationNumber"/>
+      <schemaTargets xmi:id="_x6vQs7boEfGXtaFNMPu7ow" RelativeXPathQuery="DateLastUpdated" TagName="DateLastUpdated"/>
+      <schemaTargets xmi:id="_x6vQtLboEfGXtaFNMPu7ow" RelativeXPathQuery="StoreysProposed" TagName="StoreysProposed"/>
+      <schemaTargets xmi:id="_x6vQtbboEfGXtaFNMPu7ow" RelativeXPathQuery="LandArea" TagName="LandArea"/>
+      <schemaTargets xmi:id="_x6vQtrboEfGXtaFNMPu7ow" RelativeXPathQuery="ExistingGrossFloorArea" TagName="ExistingGrossFloorArea"/>
+      <schemaTargets xmi:id="_x6vQt7boEfGXtaFNMPu7ow" RelativeXPathQuery="ProposedGrossFloorArea" TagName="ProposedGrossFloorArea"/>
+      <schemaTargets xmi:id="_x6vQuLboEfGXtaFNMPu7ow" RelativeXPathQuery="CostOfDevelopment" TagName="CostOfDevelopment"/>
+      <schemaTargets xmi:id="_x6vQubboEfGXtaFNMPu7ow" RelativeXPathQuery="ApplicationStatus" TagName="ApplicationStatus"/>
+      <schemaTargets xmi:id="_x6vQurboEfGXtaFNMPu7ow" RelativeXPathQuery="CurrentBuildingUse" TagName="CurrentBuildingUse"/>
+      <schemaTargets xmi:id="_x6vQu7boEfGXtaFNMPu7ow" RelativeXPathQuery="ProposedBuildingUse" TagName="ProposedBuildingUse"/>
+      <schemaTargets xmi:id="_x6vQvLboEfGXtaFNMPu7ow" RelativeXPathQuery="BuilderLegalName" TagName="BuilderLegalName"/>
+      <schemaTargets xmi:id="_x6vQvbboEfGXtaFNMPu7ow" RelativeXPathQuery="BuilderTradingName" TagName="BuilderTradingName"/>
+      <schemaTargets xmi:id="_x6vQvrboEfGXtaFNMPu7ow" RelativeXPathQuery="Council" TagName="Council"/>
+      <schemaTargets xmi:id="_x6vQv7boEfGXtaFNMPu7ow" RelativeXPathQuery="BuildingCodeClass[*]" TagName="BuildingCodeClass___"/>
+      <schemaTargets xmi:id="_x6vQwLboEfGXtaFNMPu7ow" RelativeXPathQuery="DevelopmentType[*]" TagName="DevelopmentType___"/>
+      <schemaTargets xmi:id="_x6vQwbboEfGXtaFNMPu7ow" RelativeXPathQuery="Location[*]" TagName="Location___"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_x6vQwrboEfGXtaFNMPu7ow" name="default" dataManager="_x6vQsLboEfGXtaFNMPu7ow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_x6vQw7boEfGXtaFNMPu7ow" id="_os8EYLboEfGXtaFNMPu7ow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQxLboEfGXtaFNMPu7ow" label="PlanningPortalApplicationNumber" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQxbboEfGXtaFNMPu7ow" label="DateLastUpdated" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQxrboEfGXtaFNMPu7ow" label="StoreysProposed" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQx7boEfGXtaFNMPu7ow" label="LandArea" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQyLboEfGXtaFNMPu7ow" label="ExistingGrossFloorArea" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQybboEfGXtaFNMPu7ow" label="ProposedGrossFloorArea" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQyrboEfGXtaFNMPu7ow" label="CostOfDevelopment" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQy7boEfGXtaFNMPu7ow" label="ApplicationStatus" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQzLboEfGXtaFNMPu7ow" label="CurrentBuildingUse" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQzbboEfGXtaFNMPu7ow" label="ProposedBuildingUse" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQzrboEfGXtaFNMPu7ow" label="BuilderLegalName" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQz7boEfGXtaFNMPu7ow" label="BuilderTradingName" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQ0LboEfGXtaFNMPu7ow" label="Council" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQ0bboEfGXtaFNMPu7ow" label="BuildingCodeClass___" length="339" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQ0rboEfGXtaFNMPu7ow" label="DevelopmentType___" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x6vQ07boEfGXtaFNMPu7ow" label="Location___" length="220" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

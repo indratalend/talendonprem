@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_U2nzgLbjEfGXtaFNMPu7ow" name="checkpaginated_json" dataPackage="_U2nzhrbjEfGXtaFNMPu7ow" JSONFilePath="C:/Working/Customer Engagements/ANZ Opportunity/2026/NSW BC/DA Data API/OnlineCDC.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_U2nzgbbjEfGXtaFNMPu7ow" LimitBoucle="50" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_U2nzgrbjEfGXtaFNMPu7ow" RelativeXPathQuery="PageSize" TagName="PageSize"/>
+      <schemaTargets xmi:id="_U2nzg7bjEfGXtaFNMPu7ow" RelativeXPathQuery="PageNumber" TagName="PageNumber"/>
+      <schemaTargets xmi:id="_U2nzhLbjEfGXtaFNMPu7ow" RelativeXPathQuery="TotalPages" TagName="TotalPages"/>
+      <schemaTargets xmi:id="_U2nzhbbjEfGXtaFNMPu7ow" RelativeXPathQuery="TotalCount" TagName="TotalCount"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_U2nzhrbjEfGXtaFNMPu7ow" name="default" dataManager="_U2nzgLbjEfGXtaFNMPu7ow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_U2nzh7bjEfGXtaFNMPu7ow" id="_IWBZsLbjEfGXtaFNMPu7ow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U2nziLbjEfGXtaFNMPu7ow" label="PageSize" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U2nzibbjEfGXtaFNMPu7ow" label="PageNumber" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U2nzirbjEfGXtaFNMPu7ow" label="TotalPages" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U2nzi7bjEfGXtaFNMPu7ow" label="TotalCount" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

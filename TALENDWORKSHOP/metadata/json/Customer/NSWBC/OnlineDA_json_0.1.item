@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_Ejr-QLboEfGXtaFNMPu7ow" name="OnlineDA_json" dataPackage="_Ejr-UbboEfGXtaFNMPu7ow" JSONFilePath="C:/Working/Customer Engagements/ANZ Opportunity/2026/NSW BC/DA Data API/OnlineDA.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_Ejr-QbboEfGXtaFNMPu7ow" LimitBoucle="50" AbsoluteXPathQuery="$.Application[*]">
+      <schemaTargets xmi:id="_Ejr-QrboEfGXtaFNMPu7ow" RelativeXPathQuery="PlanningPortalApplicationNumber" TagName="PlanningPortalApplicationNumber"/>
+      <schemaTargets xmi:id="_Ejr-Q7boEfGXtaFNMPu7ow" RelativeXPathQuery="DateLastUpdated" TagName="DateLastUpdated"/>
+      <schemaTargets xmi:id="_Ejr-RLboEfGXtaFNMPu7ow" RelativeXPathQuery="CostOfDevelopment" TagName="CostOfDevelopment"/>
+      <schemaTargets xmi:id="_Ejr-RbboEfGXtaFNMPu7ow" RelativeXPathQuery="NumberOfNewDwellings" TagName="NumberOfNewDwellings"/>
+      <schemaTargets xmi:id="_Ejr-RrboEfGXtaFNMPu7ow" RelativeXPathQuery="NumberOfStoreys" TagName="NumberOfStoreys"/>
+      <schemaTargets xmi:id="_Ejr-R7boEfGXtaFNMPu7ow" RelativeXPathQuery="NumberOfExistingLots" TagName="NumberOfExistingLots"/>
+      <schemaTargets xmi:id="_Ejr-SLboEfGXtaFNMPu7ow" RelativeXPathQuery="ApplicationStatus" TagName="ApplicationStatus"/>
+      <schemaTargets xmi:id="_Ejr-SbboEfGXtaFNMPu7ow" RelativeXPathQuery="ApplicationType" TagName="ApplicationType"/>
+      <schemaTargets xmi:id="_Ejr-SrboEfGXtaFNMPu7ow" RelativeXPathQuery="AccompaniedByVPAFlag" TagName="AccompaniedByVPAFlag"/>
+      <schemaTargets xmi:id="_Ejr-S7boEfGXtaFNMPu7ow" RelativeXPathQuery="EPIVariationProposedFlag" TagName="EPIVariationProposedFlag"/>
+      <schemaTargets xmi:id="_Ejr-TLboEfGXtaFNMPu7ow" RelativeXPathQuery="SubdivisionProposedFlag" TagName="SubdivisionProposedFlag"/>
+      <schemaTargets xmi:id="_Ejr-TbboEfGXtaFNMPu7ow" RelativeXPathQuery="DeterminationAuthority" TagName="DeterminationAuthority"/>
+      <schemaTargets xmi:id="_Ejr-TrboEfGXtaFNMPu7ow" RelativeXPathQuery="Council" TagName="Council"/>
+      <schemaTargets xmi:id="_Ejr-T7boEfGXtaFNMPu7ow" RelativeXPathQuery="DevelopmentType[*]" TagName="DevelopmentType___"/>
+      <schemaTargets xmi:id="_Ejr-ULboEfGXtaFNMPu7ow" RelativeXPathQuery="Location[*]" TagName="Location___"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ejr-UbboEfGXtaFNMPu7ow" name="default" dataManager="_Ejr-QLboEfGXtaFNMPu7ow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ejr-UrboEfGXtaFNMPu7ow" id="_hxoUkLbnEfGXtaFNMPu7ow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-U7boEfGXtaFNMPu7ow" label="PlanningPortalApplicationNumber" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-VLboEfGXtaFNMPu7ow" label="DateLastUpdated" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-VbboEfGXtaFNMPu7ow" label="CostOfDevelopment" length="-1" precision="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-VrboEfGXtaFNMPu7ow" label="NumberOfNewDwellings" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-V7boEfGXtaFNMPu7ow" label="NumberOfStoreys" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-WLboEfGXtaFNMPu7ow" label="NumberOfExistingLots" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-WbboEfGXtaFNMPu7ow" label="ApplicationStatus" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-WrboEfGXtaFNMPu7ow" label="ApplicationType" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-W7boEfGXtaFNMPu7ow" label="AccompaniedByVPAFlag" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-XLboEfGXtaFNMPu7ow" label="EPIVariationProposedFlag" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-XbboEfGXtaFNMPu7ow" label="SubdivisionProposedFlag" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-XrboEfGXtaFNMPu7ow" label="DeterminationAuthority" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-X7boEfGXtaFNMPu7ow" label="Council" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-YLboEfGXtaFNMPu7ow" label="DevelopmentType___" length="112" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ejr-YbboEfGXtaFNMPu7ow" label="Location___" length="276" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
